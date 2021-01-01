@@ -1,0 +1,2 @@
+<!--pages/strategy/index.wxml-->
+<web-view src="{{webViewUrl}}pages/strategy"></web-view>

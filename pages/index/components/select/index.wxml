@@ -1,0 +1,84 @@
+<!--pages/index/components/select/index.wxml-->
+<view class="select">
+  <view class="select_banner">
+    <Banner imgs="{{imgs}}"></Banner>
+  </view>
+  <ul class="select_list">
+    <li class="select_nav" wx:for="{{navList}}" bindtap="onNavTo" data-url="{{item.type}}">
+      <image class="select_nav__icon" src="{{item.icon}}"></image>
+      <text class="select_nav_title">{{item.title}}</text>
+    </li>
+  </ul>
+  <view class="select_heritage">
+    <view class="heritage_head">
+      <image class="heritage_hg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608371633254.png"></image>
+      <image bindtap="onHeritageView" data-heritage="heritage" class="heritage_more" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608371700952.png"></image>
+    </view>
+    <scroll-view scroll-x="true" enable-flex="true" class="heritage_list">
+      <view wx:for="{{HeritageList}}" 
+      bindtap="onContentTo" data-type="3"
+      data-id="{{item.informationId}}"
+      class="heritage_list__item">
+        <image class="heritage_list__img" src="{{item.urls[0]}}"></image>
+        <view class="heritage_list__title">{{item.title}}</view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="select_culture">
+    <view class="heritage_head">
+      <image class="heritage_hg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608371608783.png"></image>
+    </view>
+    <ul class="culture_list">
+      <li class="culture_list_item"
+      bindtap="onNavTo" data-url="19"
+      >
+        <image class="culture_list_tg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/20201226125816.jpg"></image>
+        <view  class="culture_list-right">
+          <h5 class="culture_list-title">地名故事</h5>
+          <view class="culture_list_content">
+            蕴含在地名身上的历史典故
+          </view>
+          <text class="culture_list_tag">共8篇</text>
+        </view>
+      </li>
+      <li class="culture_list_item"
+      bindtap="onNavTo" data-url="20"
+      >
+        <image class="culture_list_tg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/20201226125838.jpg"></image>
+        <view  class="culture_list-right">
+          <h5 class="culture_list-title">地名诗词</h5>
+          <view class="culture_list_content">
+            为地名作的诗篇词文，或嵌于诗词中的地名 
+          </view>
+          <text class="culture_list_tag">共8篇</text>
+        </view>
+      </li>
+      <li class="culture_list_item"
+      bindtap="onNavTo" data-url="21"
+      >
+        <image class="culture_list_tg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/20201226125829.jpg"></image>
+        <view  class="culture_list-right">
+          <h5 class="culture_list-title">地名词典</h5>
+          <view class="culture_list_content">
+            收录特定范围内的地理实体的专名词典
+          </view>
+          <text class="culture_list_tag">共8篇</text>
+        </view>
+      </li>
+      <li class="culture_list_item"
+      bindtap="onNavTo" data-url="21"
+      >
+        <image class="culture_list_tg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/20201226125852.jpg"></image>
+        <view class="culture_list-right">
+          <h5 class="culture_list-title">地名图册</h5>
+          <view class="culture_list_content">
+            记录不同地方地理位置及交通路线的地图册
+          </view>
+          <text class="culture_list_tag">共8篇</text>
+        </view>
+      </li>
+    </ul>
+  </view>
+ 
+</view>
+

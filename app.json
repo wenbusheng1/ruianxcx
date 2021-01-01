@@ -1,0 +1,42 @@
+{
+  
+  "pages": [
+    
+    "pages/index/index",
+    "pages/strategy/index",
+    "pages/webView/index",
+    "pages/personal/index",
+    "pages/feedback/index"
+  ],
+  "tabBar": {
+    "selectedColor": "#43779F",
+    "list": [
+      {
+        "selectedIconPath": "./assets/slect-home.png",
+        "iconPath": "./assets/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "./assets/slect-strategy.png",
+        "iconPath": "./assets/strategy.png",
+        "pagePath": "pages/strategy/index",
+        "text": "攻略"
+      },
+      {
+        "selectedIconPath": "./assets/slect-personal.png",
+        "iconPath": "./assets/personal.png",
+        "pagePath": "pages/personal/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#43779F",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

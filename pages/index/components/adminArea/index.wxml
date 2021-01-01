@@ -1,0 +1,17 @@
+<!--pages/index/components/situation/index.wxml-->
+<view class="wrapper">
+  <view class="list" wx:for="{{list}}" key="{{item.informationId}}"
+  bindtap="onNavTo"
+  data-type = "{{item.informationTypeId}}"
+  data-id = "{{item.informationId}}"
+  >
+    <view class="left">
+      <image src='{{item.img}}' alt='' />
+    </view>
+    <view class="right">
+      <h3 class="singleOverflow">{{item.title}}</h3>
+      <p class="singleOverflow">{{item.introduction}}</p>
+    </view>
+  </view>
+
+</view>

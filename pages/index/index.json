@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Select":"./components/select",
+    "adminList":"./components/adminArea",
+    "situation":"./components/situation"
+  },
+  "navigationBarTitleText":"瑞安地名文化遗产展示窗口"
+}

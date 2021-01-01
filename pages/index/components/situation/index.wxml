@@ -1,0 +1,27 @@
+<!--pages/index/components/adminArea/index.wxml-->
+<view class="wrapper">
+  <view class="list" wx:for="{{list}}" key="{{item.informationId}}"
+  bindtap="onNavTo"
+  data-type = "{{item.informationTypeId}}"
+  data-id = "{{item.informationId}}"
+  >
+    <view class="left">
+      <image src='{{item.img}}' alt='' />
+    </view>
+    <view class="right">
+      <h3 class="singleOverflow">{{item.title}}</h3>
+      <p class="singleOverflow">{{item.introduction}}</p>
+      <view class="foot">
+        <view class="img">
+          <image src='https://s3.ax1x.com/2020/11/26/DBFik9.png' alt='' />
+        </view>
+        <span class="views">{{item.viewCount}} 浏览量</span>
+        <!-- <view class="img icon">
+          <image src='https://s3.ax1x.com/2020/11/26/DBkHGn.png' alt='' />
+          <view class="praise">52</view>
+        </view> -->
+      </view>
+    </view>
+  </view>
+
+</view>

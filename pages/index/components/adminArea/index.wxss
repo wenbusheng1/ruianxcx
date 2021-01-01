@@ -1,0 +1,47 @@
+/* pages/index/components/situation/index.wxss */
+.wrapper {
+  box-sizing: border-box;
+  padding: 15px 22px 0 16px;
+}
+
+.list {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.list .left {
+  width: 93px;
+  height: 74px;
+}
+
+.list .left image {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  width: 223px;
+  margin-left: 12px;
+}
+
+.right h3 {
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  height: 22px;
+}
+
+.showFoot {
+  margin-top: 6px;
+  line-height: 20px;
+}
+
+.right p {
+  display: block;
+  margin-top: 4px;
+  color: #666;
+  font-size: 14px;
+  line-height: 15px;
+  height: 20px;
+}

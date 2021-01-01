@@ -1,0 +1,18 @@
+/**index.wxss**/
+.wrap_nav {
+  box-sizing: border-box;
+  padding: 0 62rpx;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 50rpx;
+  width: 100%;
+  border-bottom: 1px solid rgb(213, 213, 218);
+  margin-top:7px;
+  font-family: 楷体;
+  font-size:15px;
+}
+.active{
+  border-bottom: 2px solid #7CC5FC;
+  color: #7CC5FC;
+}

@@ -1,0 +1,46 @@
+<!--pages/personal/index.wxml-->
+<view class="main">
+      <view class="ad">
+        <image class="ad_mg" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458095797.png" />
+      </view>
+      <view class="function">
+        <view class="function1">
+          <view class="function2">
+            <image src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458182213.png" alt class="set icon1" />
+            <span class="text1">版权说明</span>
+          </view>
+          <image class="set icon2" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458368183.png" alt />
+        </view>
+
+        <view class="function1">
+          <view class="function2">
+            <image src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/32105468.png" alt class="set icon1" />
+            <span class="text1"><navigator url="../feedback/index">意见反馈</navigator></span>
+          </view>
+          <view class="function3">
+            <span class="text2"></span>
+            <image class="set icon2" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458368183.png" alt />
+          </view>
+        </view>
+        <view class="function1">
+          <view class="function2">
+            <image src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/32105467.png" alt class="set icon1" />
+            <span class="text1">关于地名</span>
+          </view>
+          <view class="function3">
+            <span class="text2"></span>
+            <image class="set icon2" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458368183.png" alt />
+          </view>
+        </view>
+        <view class="function1">
+          <view class="function2">
+            <image src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458282959.png" alt class="set icon1" />
+            <span class="text1">联系我们</span>
+          </view>
+          <view class="function3">
+            <span class="text2">400-8325332</span>
+            <image class="set icon2" src="https://minio.zjdmwh.cn/zhdm/ruian/information-pic/ROAD_NUMBER/1608458368183.png" alt />
+          </view>
+        </view>
+      </view>
+    </view>

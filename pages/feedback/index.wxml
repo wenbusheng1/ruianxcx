@@ -1,0 +1,11 @@
+<!--pages/feedback/index.wxml-->
+<view class="opinion">
+  <form bindsubmit="formSubmit">
+      <textarea placeholder="请您在此为我们提供宝贵的意见和建议，让我们为地名文化事业做的更好!" value="{{content}}" name="content"></textarea> 
+      <block>qq号码:<textarea value="{{qqNum}}" name="qqNum"></textarea></block>
+      <block>手机号码:<textarea value="{{phoneNum}}" name="phoneNum"></textarea></block>
+      <button formType="submit">提交意见</button>
+  </form>
+</view>
+
+

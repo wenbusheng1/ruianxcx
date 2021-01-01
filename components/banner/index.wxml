@@ -1,0 +1,14 @@
+<!--components/banner/index.wxml-->
+<view class="banner">
+  <swiper indicator-dots="true" autoplay="true">
+    <swiper-item wx:for="{{imgs}}">
+      <image class="banner_img" src="{{item}}"></image>
+    </swiper-item>
+    <!-- <swiper-item>
+      <image class="banner_img" src="http://qkajffeu1.hn-bkt.clouddn.com/u%3D1649807446%2C3896386332%26fm%3D26%26gp%3D0%402x.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="banner_img" src="http://qkajffeu1.hn-bkt.clouddn.com/u%3D1649807446%2C3896386332%26fm%3D26%26gp%3D0%402x.png"></image>
+    </swiper-item> -->
+  </swiper>
+</view>

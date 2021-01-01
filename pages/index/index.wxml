@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="wrap">
+  <ul class="wrap_nav">
+    <li class="wrap_title {{count==1?'active':''}}"  bindtap="onChangeNav" data-index="1">精选</li>
+    <li class="wrap_title {{count==2?'active':''}}"  bindtap="onChangeNav" data-index="2" >瑞安概况</li>
+    <li class="wrap_title {{count == 3?'active':''}}"  bindtap="onChangeNav" data-index="3">行政区划</li>
+  </ul>
+  <view>
+    <Select wx:if="{{count == 1}}" HeritageList="{{HeritageList}}" imgs="{{imgs}}"></Select>
+    <view wx:if="{{count == 2}}">
+     <situation list="{{list}}" />
+    </view>
+    <view wx:if="{{count == 3}}">
+      <adminList list="{{list}}" />
+    </view>
+  </view>
+</view>
